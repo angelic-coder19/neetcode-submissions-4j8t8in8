@@ -23,6 +23,7 @@ Planning:
 """
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
+        
         cars = [i for i in zip(position, speed)]
         times = []
         
